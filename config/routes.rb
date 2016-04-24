@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
   
   resources :waste
+  resources :schedule
 
   get 'welcome/index'
   root 'welcome#index'
 
   get 'waste/show'
+
+  get 'schedule/show'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

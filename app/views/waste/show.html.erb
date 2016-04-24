@@ -2,7 +2,12 @@
 	<strong>You are looking to throw away - </strong>
 	<%= @waste_query %>
 </p>
+
 <p>
 	<strong>This is a type of - </strong>
 	<%= @type_of_waste %>
+</p>
+
+<p>
+	<%=  link_to 'Know your waste pick up schedule', controller: "schedule", action: "show" %>
 </p>

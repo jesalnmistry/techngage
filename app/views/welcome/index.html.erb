@@ -6,3 +6,7 @@
   <%= text_field_tag(:waste_query) %>
   <%= submit_tag("Search") %>
 <% end %>
+
+<p>
+	<%=  link_to 'Know your waste pick up schedule', controller: "schedule", action: "show" %>
+</p>
