@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   root 'welcome#index'
 
-  get 'waste/show'
+  post 'waste/show'
 
   get 'schedule/show'
 
