@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_of_waste: MyString
+  example_of_waste: MyString
+
+two:
+  type_of_waste: MyString
+  example_of_waste: MyString
