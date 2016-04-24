@@ -3,8 +3,9 @@ Rails.application.routes.draw do
   resources :waste
 
   get 'welcome/index'
-
   root 'welcome#index'
+
+  get 'waste/show'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
