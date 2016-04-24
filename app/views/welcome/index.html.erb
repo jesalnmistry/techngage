@@ -1,7 +1,8 @@
-<h1>Hello, welcome to WatchMyWaste!</h1>
+<h1>What's in your dustbin?</h1>
+<h2>We help you manage your waste</h2>
 
 <%= form_tag({controller: "waste", action: "show"}, method: "get") do %>
-  <%= label_tag(:waste_query, "Search for:") %>
+  <%= label_tag(:waste_query, "What do you want to throw?") %>
   <%= text_field_tag(:waste_query) %>
   <%= submit_tag("Search") %>
 <% end %>
