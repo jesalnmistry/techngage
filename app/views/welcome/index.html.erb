@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <h1>What's in your dustbin?</h1>
 <h2>We help you manage your waste</h2>
 
 <%= form_tag({controller: "waste", action: "show"}, method: "post") do %>
   <%= label_tag(:waste_query, "What do you want to throw?") %>
   <%= text_field_tag(:waste_query) %>
-  <%= submit_tag("Search") %>
+  <%= submit_tag("Search", class: "btn btn-xs btn-success") %>
 <% end %>
 
 <p>
