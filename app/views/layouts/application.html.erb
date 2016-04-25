@@ -10,9 +10,15 @@
 
 	<body>
 		<%= render 'shared/navigationbar' %>
-		<div id="main-container" class="container">
+		<div id="main-container" class="container" align="center">
 			<%= yield %>
 		</div>
+		
+		<div id="static-container" class="container" align="center">
+			<h2>static content (text/image) goes here</h2>
+		</div>
+
+		<%= render 'shared/footer' %>
 	</body>
 
 </html>
