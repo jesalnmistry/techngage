@@ -76,3 +76,15 @@ footer small {
   padding-top: 16px;
   font-size: 1em;
 }
+
+footer ul {
+  float: right;
+  list-style: none;
+  padding-top: 16px;
+  font-size: 1em;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}

@@ -1,8 +1,14 @@
-<footer>
-  <div class="container">
-    <small>
-      &copy; 2016
-      <%= link_to "What's My Waste", "/" %>
-    </small>
-</div>
+<footer class="footer">
+  	<div class="container">
+    		<small>
+      			&copy; 2016
+      			<%= link_to "What's My Waste", "/" %>
+    		</small>
+	    	<nav>
+		    	<ul>
+		      		<li><%= link_to "About",   about_path %></li>
+		      		<li><%= link_to "Contact", contact_path %></li>
+		    	</ul>
+	  	</nav>
+	</div>
 </footer>
