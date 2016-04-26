@@ -6,4 +6,7 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def types_of_waste
+  end
+
 end
