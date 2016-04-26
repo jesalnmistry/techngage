@@ -11,7 +11,7 @@ section {
 /* line 9, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .h1-span {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 20px;
   color: #008000;
   font-weight: bold;
   font-size: 50px;
@@ -51,29 +51,41 @@ section {
 }
 
 /* line 46, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+#static-container {
+  background-size: 100% 100%;
+  margin-top: 20px;
+}
+
+/* line 51, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .queryform {
   padding-top: 30px;
 }
 
-/* line 50, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 55, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .querytextbox {
   width: 300px;
   text-align: center;
 }
 
-/* line 55, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 60, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelink {
   padding-top: 30px;
 }
 
-/* line 59, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 64, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelinktext {
   color: #000080;
   font-size: 30px;
 }
 
+/* line 69, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.yourwaste {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
 /* footer */
-/* line 66, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 76, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -82,14 +94,14 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* line 74, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 84, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
   padding-top: 16px;
   font-size: 1em;
 }
 
-/* line 80, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 90, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
@@ -97,7 +109,7 @@ footer ul {
   font-size: 1em;
 }
 
-/* line 87, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 97, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
