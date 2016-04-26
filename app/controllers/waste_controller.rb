@@ -18,7 +18,7 @@ class WasteController < ApplicationController
 		@waste_query = params[:waste_query]
 		WASTES.each do |key , value|
 			value.each do |waste|
-				if waste.eql?(@waste_query)
+				if waste.eql?(@waste_query.downcase)
 					@type_of_waste = key
 				end
 			end
