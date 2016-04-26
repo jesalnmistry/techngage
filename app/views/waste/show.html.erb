@@ -1,14 +1,16 @@
-<p>
-	<h4>You are looking to throw away - </h4>
+<!DOCTYPE html>
+<%= render 'shared/header' %>
+
+<div class="yourwaste">
+	You are looking to throw away -
 	<%= @waste_query %>
-</p>
+	<p>
+		<strong>This is a type of - </strong>
+		<%= @type_of_waste %>
+		<%= image_tag(@waste_logo, style: "height: 70px; width: 70px") %>
+	</p>
+</div>
 
-<p>
-	<strong>This is a type of - </strong>
-	<%= @type_of_waste %>
-	<%= image_tag(@waste_logo, style: "height: 70px; width: 70px") %>
-</p>
-
-<p>
-	<%=  link_to 'Know your waste pick up schedule', controller: "schedule", action: "show" %>
+<p class="schedulelink">
+	<%=  link_to "My waste pick up schedule", {controller: "schedule", action: "show"}, {class: "schedulelinktext"} %>
 </p>

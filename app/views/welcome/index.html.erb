@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<span class="h1-span">
-	What's in your dustbin?
-</span>
-<br>
-<span class="h2-span">
-	We help you manage your waste
-</span>
+<%= render 'shared/header' %>
 
 <%= form_tag({controller: "waste", action: "show", method: "post"}, {class: "queryform"}) do %>
   	<input id="waste_query" name="waste_query" type="text" class ="querytextbox" placeholder="What do you want to throw away?" />
