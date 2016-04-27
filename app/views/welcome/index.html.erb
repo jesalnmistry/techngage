@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <%= render 'shared/header' %>
-
-<%= form_tag({controller: "waste", action: "show", method: "post"}, {class: "queryform"}) do %>
-  	<input id="waste_query" name="waste_query" type="text" class ="querytextbox" placeholder="What do you want to throw away?" />
-  	<%= submit_tag("Search", class: "btn btn-xs btn-success") %>
-<% end %>
-
-<p class="schedulelink">
-	<%=  link_to "My waste pick up schedule", {controller: "schedule", action: "show"}, {class: "schedulelinktext"} %>
-</p>
+<div>
+	<%= form_tag({controller: "waste", action: "show", method: "post"}, {class: "queryform"}) do %>
+	  	<input id="waste_query" name="waste_query" type="text" class ="querytextbox" placeholder="What do you want to throw away?" />
+	  	<%= submit_tag("Search", class: "btn btn-default btn-success") %>
+	<% end %>
+</div>
+<%= render 'shared/schedule' %>

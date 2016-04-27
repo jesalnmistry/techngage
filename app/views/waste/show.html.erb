@@ -11,6 +11,4 @@
 	</p>
 </div>
 
-<p class="schedulelink">
-	<%=  link_to "My waste pick up schedule", {controller: "schedule", action: "show"}, {class: "schedulelinktext"} %>
-</p>
+<%= render 'shared/schedule' %>
