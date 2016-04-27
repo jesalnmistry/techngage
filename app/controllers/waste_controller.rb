@@ -15,6 +15,7 @@ class WasteController < ApplicationController
 	}
 
 	def show
+		@title = "Throw away your waste"
 		@waste_query = params[:waste_query]
 		WASTES.each do |key , value|
 			value.each do |waste|
