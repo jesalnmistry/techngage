@@ -71,7 +71,8 @@ section {
 }
 
 .schedulelink {
-  margin-top: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .schedulelinktext{
@@ -82,9 +83,16 @@ section {
 .yourwaste {
   margin-top: 50px;
   font-size: 30px;
-  background: rgba(128, 128, 128, .5);
-  width: 750px;
+  background: rgba(128, 128, 128, .7);
+  width: 800px;
   padding-bottom: 5px;
+  color: #000000;
+}
+
+.yourwaste-description-text {
+  color: #000000;
+  font-weight: normal;
+  font-size: 0.7em;
 }
 
 .typesofwaste-thread {

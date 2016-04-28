@@ -3,11 +3,15 @@
 
 <div class="yourwaste">
 	You are looking to throw away -
-	<%= @waste_query %>
+	"<%= @waste_query %>"
 	<p>
-		<strong>This is a type of - </strong>
-		<%= @type_of_waste %>
+		This is a type of -
+		<strong><%= @type_of_waste %></strong>
 		<%= image_tag(@waste_logo, style: "height: 70px; width: 70px") %>
+		<br>
+		<span class="yourwaste-description-text">
+			<%= @waste_description %>
+		</span>
 	</p>
 </div>
 
