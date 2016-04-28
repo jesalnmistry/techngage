@@ -82,7 +82,7 @@ section {
 .yourwaste {
   margin-top: 50px;
   font-size: 30px;
-  background: rgba(128,128,128,0.5);
+  background: rgba(128, 128, 128, .5);
   width: 750px;
   padding-bottom: 5px;
 }
@@ -90,13 +90,15 @@ section {
 .typesofwastethread {
   font-weight: bold;
   font-size: 1.5em;
+  background-color: rgba(128, 128, 128, .5);
 }
 
 .typesofwastetbody {
   font-size: 1.5em;
   font-weight: bold;
   color: #FFD700;
-  text-shadow: 1px 1px #006400;
+  text-shadow: 1px 1px #000000;
+  background-color: rgba(128, 128, 128, .5);
 }
 
 /* footer */
