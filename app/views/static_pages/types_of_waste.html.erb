@@ -10,31 +10,47 @@
 		<div class="col-xs-12">
 			<div class="table-responsive">
 				<table class="table table-bordered">
-					<thead class="typesofwastethread">
+					<thead class="typesofwaste-thread">
 						<tr>
 							<th>Type of Waste</th>
+							<th>Description</th>
 							<th>Logo</th>
 						</tr>
 					</thead>
-					<tbody class="typesofwastetbody">
-						<tr>
+					<tbody class="typesofwaste-tbody">
+						<tr class="typesofwaste-dry">
 							<td>Dry Waste</td>
+							<td class="typesofwaste-tbody-description">
+								Dry waste includes all items that are not considered wet or soiled items. Anything that can be kept for an extended period without decomposing.
+							</td>
 							<td><%= image_tag("dry_waste", style: "height: 50px; width: 50px") %></td>
 						</tr>
-						<tr>
+						<tr class="typesofwaste-wet">
 							<td>Wet Waste</td>
+							<td class="typesofwaste-tbody-description">
+								Wet waste includes all organic, non-dry waste. It usually include kitchen waste.
+							</td>
 							<td><%= image_tag("wet_waste", style: "height: 50px; width: 50px") %></td>
 						</tr>
-						<tr>
+						<tr class="typesofwaste-garden">
 							<td>Garden Waste</td>
+							<td class="typesofwaste-tbody-description">
+								Green waste is biodegradable waste that can be composed of garden or park waste, such as grass or flower cuttings and hedge trimmings.
+							</td>
 							<td><%= image_tag("garden_waste", style: "height: 50px; width: 50px") %></td>
 						</tr>
-						<tr>
+						<tr class="typesofwaste-e">
 							<td>E - Waste</td>
+							<td class="typesofwaste-tbody-description">
+								E-waste is any waste created by discarded electronic devices and components as well as substances involved in their manufacture or use.
+							</td>
 							<td><%= image_tag("e_waste", style: "height: 50px; width: 50px") %></td>
 						</tr>
-						<tr>
+						<tr class="typesofwaste-hazardous">
 							<td>Hazardous Waste</td>
+							<td class="typesofwaste-tbody-description">
+								Hazardous waste is waste that poses substantial or potential threats to public health or the environment.
+							</td>
 							<td><%= image_tag("hazardous_waste", style: "height: 50px; width: 50px") %></td>
 						</tr>
 					</tbody>

@@ -87,19 +87,53 @@ section {
   padding-bottom: 5px;
 }
 
-.typesofwastethread {
+.typesofwaste-thread {
+  text-align: center;
   font-weight: bold;
   font-size: 1.5em;
-  background-color: rgba(128, 128, 128, .5);
+  background-color: rgba(128, 128, 128, .7);
 }
 
-.typesofwastetbody {
+.typesofwaste-tbody {
   font-size: 1.5em;
   font-weight: bold;
-  color: #FFD700;
-  text-shadow: 1px 1px #000000;
-  background-color: rgba(128, 128, 128, .5);
+  color: #8B0000;
+  // text-shadow: 1px 1px #000000;
+  background-color: rgba(128, 128, 128, .7);
 }
+
+.typesofwaste-tbody-description {
+  font-size: 0.75em;
+  color: #000000;
+  text-shadow: none;
+  font-weight: normal;
+}
+
+.typesofwaste-dry {
+  color: #0000CD;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+.typesofwaste-wet {
+  color: #DAA520;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+.typesofwaste-garden {
+  color: #008000;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+.typesofwaste-e {
+  color: #FF8C00;
+  text-shadow: 1px 1px #000000;
+}
+
+.typesofwaste-hazardous {
+  color: #FF0000;
+  text-shadow: 1px 1px #000000;
+}
+
 
 /* footer */
 
