@@ -78,37 +78,89 @@ section {
 
 /* line 73, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelink {
-  margin-top: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-/* line 77, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 78, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelinktext {
   color: #000080;
   font-size: 30px;
 }
 
-/* line 82, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 83, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste {
   margin-top: 50px;
   font-size: 30px;
-}
-
-/* line 87, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
-.typesofwastethread {
-  font-weight: bold;
-  font-size: 1.5em;
+  background: rgba(128, 128, 128, 0.7);
+  width: 800px;
+  padding-bottom: 5px;
+  color: #000000;
 }
 
 /* line 92, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
-.typesofwastetbody {
+.yourwaste-description-text {
+  color: #000000;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+
+/* line 98, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-thread {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+/* line 105, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-tbody {
   font-size: 1.5em;
   font-weight: bold;
-  color: #FFD700;
-  text-shadow: 1px 1px #006400;
+  color: #8B0000;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+/* line 113, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-tbody-description {
+  font-size: 0.75em;
+  color: #000000;
+  text-shadow: none;
+  font-weight: normal;
+}
+
+/* line 120, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-dry {
+  color: #0000CD;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+/* line 125, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-wet {
+  color: #DAA520;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+/* line 130, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-garden {
+  color: #008000;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+/* line 135, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-e {
+  color: #FF8C00;
+  text-shadow: 1px 1px #000000;
+}
+
+/* line 140, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.typesofwaste-hazardous {
+  color: #FF0000;
+  text-shadow: 1px 1px #000000;
 }
 
 /* footer */
-/* line 101, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 148, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -116,14 +168,14 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* line 108, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 155, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
   padding-top: 16px;
   font-size: 1em;
 }
 
-/* line 114, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 161, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
@@ -131,7 +183,7 @@ footer ul {
   font-size: 1em;
 }
 
-/* line 121, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 168, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
