@@ -25,7 +25,7 @@ class WasteController < ApplicationController
 	}
 
 	def show
-		@title = "Waste type search result"
+		@title = "Search Result"
 		@waste_query = params[:waste_query]
 		WASTES.each do |key , value|
 			value.each do |waste|
