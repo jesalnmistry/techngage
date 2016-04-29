@@ -10,8 +10,10 @@ section {
   overflow: auto;
 }
 
-.navbar-header {
+#site-navbar {
   max-height: 20px;
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+  font-size: 17px;
 }
 
 .logo-image {
@@ -21,12 +23,17 @@ section {
   margin-left: 5px;
 }
 
+.headers {
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+}
+
 .h1-span {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 20px;
   color: #008000;
   font-weight: bold;
   font-size: 50px;
+  font-style: italic;
   text-shadow: 1px 1px #00CED1;
 }
 
@@ -68,11 +75,13 @@ section {
   height: 35px;
   font-size: 20px;
   text-align: center;
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
 }
 
 .schedulelink {
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
 }
 
 .schedulelinktext{
@@ -82,6 +91,7 @@ section {
 
 .yourwaste {
   margin-top: 50px;
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
   font-size: 30px;
   background: rgba(128, 128, 128, .7);
   width: 800px;
@@ -100,6 +110,7 @@ section {
   font-weight: bold;
   font-size: 1.5em;
   background-color: rgba(128, 128, 128, .7);
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
 }
 
 .typesofwaste-tbody {
@@ -108,6 +119,7 @@ section {
   color: #8B0000;
   // text-shadow: 1px 1px #000000;
   background-color: rgba(128, 128, 128, .7);
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
 }
 
 .typesofwaste-tbody-description {
@@ -147,6 +159,8 @@ section {
   margin-top: 20px;
   color: #008000;
   font-weight: bold;
+  font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+  font-style: italic;
   font-size: 30px;
   text-shadow: 1px 1px #00CED1;
 }
