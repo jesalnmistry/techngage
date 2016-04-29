@@ -1,9 +1,9 @@
 class WasteController < ApplicationController
 
 	WASTES = { 
-		"Dry Waste" => ["cardboards", "nails", "wires", "rubber", "newspaper", "cloth", "plastic bags", "aluminium foils", "cans", "wrappers", "broken utensils", "boxes", "tubes", "tires", "medical packages"],
-		"Wet Waste" => ["bones", "kitchen waste", "meat", "fruits", "coconut peel", "eggs", "fish", "finger nails", "tea leaves", "vegetable peels", "hair"],
-		"Garden Waste" => ["dry leaves", "flowers", "grass", "hedge trimmings"],
+		"Dry Waste" => ["magazines","coupons","posters","cards","cardboards", "nails", "wires", "rubber", "newspaper", "cloth", "plastic bags", "aluminium foils", "cans", "wrappers", "broken utensils", "boxes", "tubes", "tires", "medical packages"],
+		"Wet Waste" => ["bones", "kitchen waste", "meat", "fruits", "coconut peel", "eggs", "fish", "finger nails", "tea leaves", "vegetable peels", "hair", "chewing gum", "broken glass"],
+		"Garden Waste" => ["dry leaves", "flowers", "grass", "hedge trimmings", "leaves", "weed", "weeds", "seeds", "twigs"],
 		"E-Waste" => ["bulb", "batteries", "toys", "computer", "mobiles", "pen drives", "televisions", "monitor", "VCRs", "telephones", "fax machines", "stereos", "tablet computer"],
 		"Hazardous Waste" => ["vehicle batteries", "solvents", "waste inks", "lighters", "pesticides", "vehicle fluids", "paints", "lead", "mercury", "copper", "zinc"] 
 	}
