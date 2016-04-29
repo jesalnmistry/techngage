@@ -142,6 +142,28 @@ section {
   text-shadow: 1px 1px #000000;
 }
 
+.schedule-header {
+  display: inline-block;
+  margin-top: 20px;
+  color: #008000;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px 1px #00CED1;
+}
+
+.schedule-legend{
+  margin-top: 20px;
+}
+
+.schedule-calendar {
+  margin-top: 20px;
+}
+
+.info-type-of-waste {
+  background-color: rgba(128, 128, 128, .7);
+  font-weight: bold;
+  color: #000000;
+}
 
 /* footer */
 
