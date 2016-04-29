@@ -159,8 +159,35 @@ section {
   text-shadow: 1px 1px #000000;
 }
 
+/* line 145, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.schedule-header {
+  display: inline-block;
+  margin-top: 20px;
+  color: #008000;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px 1px #00CED1;
+}
+
+/* line 154, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.schedule-legend {
+  margin-top: 20px;
+}
+
+/* line 158, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.schedule-calendar {
+  margin-top: 20px;
+}
+
+/* line 162, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+.info-type-of-waste {
+  background-color: rgba(128, 128, 128, 0.7);
+  font-weight: bold;
+  color: #000000;
+}
+
 /* footer */
-/* line 148, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 170, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -168,14 +195,14 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* line 155, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 177, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
   padding-top: 16px;
   font-size: 1em;
 }
 
-/* line 161, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 183, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
@@ -183,7 +210,7 @@ footer ul {
   font-size: 1em;
 }
 
-/* line 168, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 190, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
