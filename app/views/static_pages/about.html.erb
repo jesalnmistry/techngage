@@ -5,4 +5,32 @@
 	<div class="h1-span">
 		About
 	</div>
+	<div class="about-content">
+		<div class ="about-elevator-pitch">
+			<p>
+				For Pune Citizens, Who Need to dispose of their waste properly, We Provide Digital Schedule and Categorization, That is Easy, Engaging and Informative.
+			</p>
+		</div>
+		<div class="about-text">
+			<p>
+				Throwing waste in the bin is a good thing. However, it is not where the process of managing waste ends, but where it begins. Segregation is the first step of waste management.
+			</p>
+			<p>
+				Landfills are an increasingly pressing problem. Less and less land is available to deposit refuse, but the volume of waste is growing all time. As a result, segregating waste is not just of environmental importance, but of economic concern, too. While most people think that it starts once the garbage reaches the huge dustbin vans or the dumping grounds, it really starts right at your house.
+			</p>
+			<p>
+				We all know that waste segregation should be done but very few actually do it. What most of us don't realise is that unsegregated waste from households is sorted by rag pickers. They segregate waste with their bare hands. Often glass and other waste objects may cause cuts and bruises and also infection leading to severe illnesses. 
+			</p>
+			<p>
+				We propose to solve this problem by asking the question <strong>"What’s in your Dustbin?"</strong>. The idea is to have a schedule pickup for various types of waste separately. The rag pickers will pick up only that waste and nothing else. The schedule for the waste pick up can be seen
+				<%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
+			</p>
+			<p>
+				We also provide the users with an interactive learning platform from where they can 
+				<%= link_to("learn how to categorise the waste", types_of_waste_path, {:style=>'color:#FFFFFF;', :class => "css_class"} ) %>.
+				Users can also search for an object that they want to throw and we will tell them 
+				<%= link_to("which dustbin should they throw this waste into", "/", {:style=>'color:#FFFFFF;', :class => "css_class"} ) %>. This would encourage them to segregate waste at their house itself, saving the municipal corporation half the trouble.
+			</p>
+		</div>
+	</div>
 </div>
