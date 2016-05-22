@@ -26,14 +26,15 @@ section {
   width: 35px;
   margin-top: 8px;
   margin-left: 5px;
+  background-color: white;
 }
 
-/* line 26, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 27, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .headers {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 30, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 31, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .h1-span {
   display: inline-block;
   margin-top: 20px;
@@ -43,7 +44,7 @@ section {
   text-shadow: 1px 1px #00CED1;
 }
 
-/* line 39, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 40, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .h2-span {
   display: inline-block;
   color: #05750A;
@@ -51,26 +52,26 @@ section {
   text-shadow: 1px 1px #00CED1;
 }
 
-/* line 46, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 47, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .center {
   text-align: center;
 }
 
-/* line 56, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 57, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 #main-container {
   background: url("background_pune_agakhan-min.png");
   background-size: 100% 100%;
   height: 575px;
 }
 
-/* line 62, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 63, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 #static-container {
   background: url("howto.png");
   background-size: 100% 100%;
   height: 450px;
 }
 
-/* line 68, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 69, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .queryform {
   margin-top: 100px;
   margin-left: 15px;
@@ -78,7 +79,7 @@ section {
   padding: 5px;
 }
 
-/* line 75, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 76, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .querytextbox {
   width: 400px;
   height: 35px;
@@ -88,20 +89,20 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 84, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 85, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelink {
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 90, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 91, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelinktext {
   color: #000080;
   font-size: 30px;
 }
 
-/* line 95, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 96, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste {
   margin-top: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -112,14 +113,14 @@ section {
   color: #000000;
 }
 
-/* line 105, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 106, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste-description-text {
   color: #000000;
   font-weight: normal;
   font-size: 0.7em;
 }
 
-/* line 111, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 112, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-thread {
   text-align: center;
   font-weight: bold;
@@ -128,7 +129,7 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 119, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 120, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-tbody {
   font-size: 1.5em;
   font-weight: bold;
@@ -137,7 +138,7 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 128, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 129, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-tbody-description {
   font-size: 0.75em;
   color: #000000;
@@ -145,37 +146,37 @@ section {
   font-weight: normal;
 }
 
-/* line 135, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 136, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-dry {
   color: #0000CD;
   text-shadow: 0.5px 0.5px #000000;
 }
 
-/* line 140, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 141, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-wet {
   color: #DAA520;
   text-shadow: 0.5px 0.5px #000000;
 }
 
-/* line 145, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 146, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-garden {
   color: #008000;
   text-shadow: 0.5px 0.5px #000000;
 }
 
-/* line 150, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 151, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-e {
   color: #FF8C00;
   text-shadow: 1px 1px #000000;
 }
 
-/* line 155, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 156, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-hazardous {
   color: #FF0000;
   text-shadow: 1px 1px #000000;
 }
 
-/* line 160, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 161, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-header {
   display: inline-block;
   margin-top: 20px;
@@ -186,24 +187,24 @@ section {
   text-shadow: 1px 1px #00CED1;
 }
 
-/* line 170, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 171, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-legend {
   margin-top: 20px;
 }
 
-/* line 174, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 175, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-calendar {
   margin-top: 20px;
 }
 
-/* line 178, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 179, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .info-type-of-waste {
   background-color: rgba(128, 128, 128, 0.7);
   font-weight: bold;
   color: #000000;
 }
 
-/* line 184, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 185, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .about-content {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: rgba(128, 128, 128, 0.7);
@@ -211,7 +212,7 @@ section {
   width: 1000px;
 }
 
-/* line 191, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 192, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .about-elevator-pitch {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -221,7 +222,7 @@ section {
   font-size: 20px;
 }
 
-/* line 200, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 201, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .about-text {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
@@ -234,20 +235,20 @@ section {
   padding-bottom: 10px;
 }
 
-/* line 212, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 213, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .btn-green {
   background-color: #05750A;
   border-color: #05750A;
   color: whitesmoke;
 }
 
-/* line 217, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 218, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-image {
   width: 40px;
   height: 40px;
 }
 
-/* line 222, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 223, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .home-search-bar {
   background-color: rgba(128, 128, 128, 0.7);
   border-radius: 5px;
@@ -255,7 +256,7 @@ section {
 }
 
 /* footer */
-/* line 229, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 230, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -263,14 +264,14 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* line 236, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 237, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
   padding-top: 16px;
   font-size: 1em;
 }
 
-/* line 242, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 243, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
@@ -278,7 +279,7 @@ footer ul {
   font-size: 1em;
 }
 
-/* line 249, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 250, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
