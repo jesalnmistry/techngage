@@ -73,7 +73,7 @@ section {
 
 /* line 69, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .queryform {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: 15px;
   margin-right: 15px;
   padding: 5px;
@@ -91,7 +91,7 @@ section {
 
 /* line 85, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelink {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -104,9 +104,9 @@ section {
 
 /* line 96, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   background: rgba(128, 128, 128, 0.7);
   width: 800px;
   padding-bottom: 5px;
@@ -244,8 +244,8 @@ section {
 
 /* line 218, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-image {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 /* line 223, /home/jesal/Documents/techngage/app/assets/stylesheets/custom.css.scss */
