@@ -11,6 +11,6 @@
 	<strong><%= @type_of_waste %></strong>
 	<%= image_tag(@waste_logo, style: "height: 70px; width: 70px; padding: 5px") %>
 	<br>
-	You can also check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
+	You can also check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:class => "link-text"}) %>.
 </div>
 <%= render 'shared/howToGetRidOfWaste'%>

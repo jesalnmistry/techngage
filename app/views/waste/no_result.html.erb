@@ -7,8 +7,8 @@
 
 <div class="yourwaste">
 	We couldn't search for -
-	<strong>"<%= @waste_query %>"</strong>. Although, you can refer to <%= link_to("Types of Waste", types_of_waste_path, {:style=>'color:#FFFFFF;', :class => "css_class"} ) %> to categorise the waste yourself.
+	<strong>"<%= @waste_query %>"</strong>. Although, you can refer to <%= link_to("Types of Waste", types_of_waste_path, {:class => "link-text"} ) %> to categorise the waste yourself.
 	<br>
-	You can also check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
+	You can also check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:class => "link-text"}) %>.
 </div>
 <%= render 'shared/howToGetRidOfWaste'%>
