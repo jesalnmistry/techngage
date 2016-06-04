@@ -6,10 +6,8 @@
 <%= render 'shared/searchbar' %>
 
 <div class="yourwaste">
-	You want to throw away -
-	"<%= @waste_query %>". This is 
-	<strong><%= @type_of_waste %></strong>
-	<%= image_tag(@waste_logo, style: "height: 70px; width: 70px; padding: 5px") %>
+	We couldn't search for -
+	<strong>"<%= @waste_query %>"</strong>. Although, you can refer to <%= link_to("Types of Waste", types_of_waste_path, {:style=>'color:#FFFFFF;', :class => "css_class"} ) %> to categorise the waste yourself.
 	<br>
 	You can also check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
 </div>

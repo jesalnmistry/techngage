@@ -6,9 +6,8 @@ Rails.application.routes.draw do
   get 'welcome/index'
   root 'welcome#index'
 
-  post 'waste/show'
-
-  get 'schedule/show'
+  post 'waste/search'
+  get  'schedule/show'
 
 # static routes
   get  'about' => 'static_pages#about'

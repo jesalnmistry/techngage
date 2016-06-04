@@ -24,8 +24,9 @@ class WasteController < ApplicationController
 		"Hazardous Waste" => "Hazardous waste is waste that poses substantial or potential threats to public health or the environment."
 	}
 
-	def show
-		@title = "Search Result"
+	def search
+		@title = ""
+		@type_of_waste = ""
 		@waste_query = params[:waste_query]
 		WASTES.each do |key , value|
 			value.each do |waste|
@@ -34,7 +35,22 @@ class WasteController < ApplicationController
 				end
 			end
 		end
-		@waste_logo = WASTE_LOGOS[@type_of_waste]
-		@waste_description = WASTE_DESCRIPTION[@type_of_waste]
+		if @type_of_waste.eql? ""
+		   no_result
+		else
+		   show
+		end
+	end
+
+	def show
+			@title = "Search Result"
+			@waste_logo = WASTE_LOGOS[@type_of_waste]
+			@waste_description = WASTE_DESCRIPTION[@type_of_waste]
+			render :template => "waste/show"
+	end
+
+	def no_result
+			@title = "No Result"
+			render :template => "waste/no_result"
 	end
 end
