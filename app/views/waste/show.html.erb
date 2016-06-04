@@ -4,17 +4,10 @@
 <%= render 'shared/searchbar' %>
 
 <div class="yourwaste">
-	You are looking to throw away -
-	"<%= @waste_query %>"
-	<p>
-		This is a type of -
-		<strong><%= @type_of_waste %></strong>
-		<%= image_tag(@waste_logo, style: "height: 70px; width: 70px") %>
-		<br>
-		<span class="yourwaste-description-text">
-			<%= @waste_description %>
-		</span>
-	</p>
+	You want to throw away -
+	"<%= @waste_query %>". This is 
+	<strong><%= @type_of_waste %></strong>
+	<%= image_tag(@waste_logo, style: "height: 70px; width: 70px") %>
+	<br>
+	Check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
 </div>
-
-<%= render 'shared/schedule' %>
