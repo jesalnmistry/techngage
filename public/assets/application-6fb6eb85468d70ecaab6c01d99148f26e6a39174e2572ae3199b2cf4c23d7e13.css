@@ -65,7 +65,7 @@ section {
 
 /* line 62, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .big-background {
-  background: url("background_700.jpg");
+  background: url("background_700.png");
   background-size: 100% 100%;
   height: 700px;
 }
@@ -77,12 +77,13 @@ section {
 }*/
 /* line 74, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 #static-container {
+  margin-top: 10px;
   background: url("footer_final.png");
   background-size: 100% 100%;
   height: 275px;
 }
 
-/* line 80, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 81, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .queryform {
   margin-top: 60px;
   margin-left: 15px;
@@ -90,7 +91,7 @@ section {
   padding: 5px;
 }
 
-/* line 87, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 88, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .querytextbox {
   width: 400px;
   height: 35px;
@@ -100,20 +101,25 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 96, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 97, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelink {
   padding-top: 30px;
   padding-bottom: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 102, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 103, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedulelinktext {
   color: #000080;
   font-size: 30px;
 }
 
-/* line 107, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 108, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+.link-text {
+  color: #05750A;
+}
+
+/* line 112, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste {
   margin-top: 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -124,14 +130,14 @@ section {
   color: #000000;
 }
 
-/* line 117, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 122, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .yourwaste-description-text {
   color: #000000;
   font-weight: normal;
   font-size: 0.7em;
 }
 
-/* line 123, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 128, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-thread {
   text-align: center;
   font-weight: bold;
@@ -140,7 +146,7 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 131, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 136, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-tbody {
   font-size: 1.5em;
   font-weight: bold;
@@ -149,7 +155,7 @@ section {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 139, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 144, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-tbody-description {
   font-size: 0.75em;
   color: #000000;
@@ -157,37 +163,37 @@ section {
   font-weight: normal;
 }
 
-/* line 146, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 151, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-dry {
   color: #0000CD;
   text-shadow: none;
 }
 
-/* line 151, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 156, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-wet {
   color: #DAA520;
   text-shadow: none;
 }
 
-/* line 156, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 161, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-garden {
   color: #008000;
   text-shadow: none;
 }
 
-/* line 161, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 166, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-e {
   color: #FF8C00;
   text-shadow: none;
 }
 
-/* line 166, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 171, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .typesofwaste-hazardous {
   color: #FF0000;
   text-shadow: none;
 }
 
-/* line 171, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 176, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-header {
   display: inline-block;
   margin-top: 20px;
@@ -198,24 +204,24 @@ section {
   text-shadow: none;
 }
 
-/* line 181, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 186, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-legend {
   margin-top: 20px;
 }
 
-/* line 185, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 190, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-calendar {
   margin-top: 20px;
 }
 
-/* line 189, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 194, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .info-type-of-waste {
   background-color: rgba(128, 128, 128, 0.7);
   font-weight: bold;
   color: #000000;
 }
 
-/* line 195, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 200, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .about-content {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: rgba(128, 128, 128, 0.7);
@@ -223,7 +229,7 @@ section {
   width: 1000px;
 }
 
-/* line 202, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 207, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .about-elevator-pitch {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -233,7 +239,7 @@ section {
   font-size: 20px;
 }
 
-/* line 211, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 216, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .about-text {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
@@ -246,20 +252,20 @@ section {
   padding-bottom: 10px;
 }
 
-/* line 223, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 228, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .btn-green {
   background-color: #05750A;
   border-color: #05750A;
   color: whitesmoke;
 }
 
-/* line 228, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 233, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .schedule-image {
   width: 60px;
   height: 60px;
 }
 
-/* line 233, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 238, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 .home-search-bar {
   background-color: rgba(128, 128, 128, 0.7);
   border-radius: 5px;
@@ -267,7 +273,7 @@ section {
 }
 
 /* footer */
-/* line 240, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 245, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -275,19 +281,20 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* line 246, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 251, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 #footer_id {
+  margin-top: 5px;
   position: absolute;
 }
 
-/* line 250, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 256, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 footer small {
   float: left;
   padding-top: 16px;
   font-size: 1em;
 }
 
-/* line 256, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 262, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul {
   float: right;
   list-style: none;
@@ -295,7 +302,7 @@ footer ul {
   font-size: 1em;
 }
 
-/* line 263, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
+/* line 269, /Users/richatri/Projects/TechNgage/techngage/app/assets/stylesheets/custom.css.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
