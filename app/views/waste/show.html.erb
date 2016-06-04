@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<% content_for :body_class, "small-background" %>
+
 <%= render 'shared/header' %>
 
 <%= render 'shared/searchbar' %>
@@ -11,3 +13,4 @@
 	<br>
 	Check your waste pick up schedule <%= link_to("here", {controller: "schedule", action: "show"}, {:style=>'color:#FFFFFF;', :class => "css_class"}) %>.
 </div>
+<%= render 'shared/howToGetRidOfWaste'%>

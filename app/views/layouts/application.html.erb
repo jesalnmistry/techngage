@@ -12,10 +12,10 @@
 
 	<body>
 		<%= render 'shared/navigationbar' %>
-		<div id="main-container" class="container" align="center">
+		<div id="main-container" class= "container <%= yield (:body_class) %>" align="center">
 			<%= yield %>
 		</div>
-		<div id="static-container" class="container" align="center"></div>
+		<!-- <div id="static-container" class="container" align="center"></div>	 -->
 		<%= render 'shared/footer' %>
 	</body>
 </html>
